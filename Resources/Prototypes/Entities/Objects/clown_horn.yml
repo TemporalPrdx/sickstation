@@ -1,0 +1,11 @@
+- type: entity
+  name: please help me
+  parent: BaseItem
+  id: ClownHorn
+  description: it's 6 am
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/bikehorn.rsi
+    state: icon
+  - type: PlaySoundOnUse
+    sound: /Audio/Items/bikehorn.ogg
